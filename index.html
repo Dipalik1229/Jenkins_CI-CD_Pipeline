@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jenkins CI/CD Demo</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: #111;
+            padding: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            margin-top: 60px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            width: 60%;
+            margin: auto;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+        }
+
+        .version {
+            font-size: 30px;
+            color: #00ffcc;
+            margin: 20px 0;
+        }
+
+        .pipeline {
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 15px;
+            background: #111;
+            font-size: 14px;
+            color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    🚀 Jenkins CI/CD Pipeline Demo
+</header>
+
+<div class="container">
+    <div class="card">
+        <h1>Auto Deployment Successful ✅</h1>
+
+        <div class="version">
+            Build Version: <strong>v1</strong>
+        </div>
+
+        <p>
+            This website is automatically deployed using a Jenkins pipeline.
+            Any change in the HTML code triggers a new build and redeployment.
+        </p>
+
+        <div class="pipeline">
+            <strong>Pipeline Flow:</strong><br>
+            GitHub ➝ Jenkins ➝ Docker ➝ Nginx ➝ Browser
+        </div>
+    </div>
+</div>
+
+<footer>
+    Deployed using Jenkins | Docker | Nginx | CI/CD
+</footer>
+
+</body>
+</html>
