@@ -81,6 +81,7 @@ jenkins-ci-cd-demo-project/
 ### 3️⃣ Access the Application
 
 Open browser and visit:
+
 http://<jenkins-server-ip>:8081
 
 
